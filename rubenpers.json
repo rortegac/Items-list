@@ -1,0 +1,44 @@
+{
+	"Books": [
+		{
+			"title": "Los 20 relatos para soñar",
+			"description": "Este libro explica los 20 relatos con los que un ser puede soñar",
+			"image": "img/resources/articles-libros/libro1.jpeg"
+		},
+		{
+			"title": "Manadas de Judias",
+			"description": "Histórica novela de terror que narra como el mundo es enterrado en un campo de judías",
+			"image": "img/resources/articles-libros/libro2.png"
+		},
+		{
+			"title": "Pestilente",
+			"description": "Roberto Matazzi es un joven adolescente que tiene pánico al agua, los estudios no le van bien...",
+			"image": "img/resources/articles-libros/libro3.jpeg"
+		},
+		{
+			"title": "20 mil leguas de viaje en motoespino",
+			"description": "En lo profundo de la ruta 66 americana, un viaje en motoespino puede llevar a sitios insospechados",
+			"image": "img/resources/articles-libros/libro4.jpeg"
+		},
+		{
+			"title": "Deja de fumar",
+			"description": "La psicologa Nikol Meschtarner enseña los pasos a seguir para prescindir de la nicotina",
+			"image": "img/resources/articles-libros/libro5.jpeg"
+		},
+		{
+			"title": "Los caramillos dorados",
+			"description": "En busca del viejo tesoro azteca, Roberto y Willson correar un sin fin de aventuras",
+			"image": "img/resources/articles-libros/libro6.jpeg"
+		},
+		{
+			"title": "Historia Medieval",
+			"description": "Historia de la edad media desde la caida del Imperio Romano hasta el descubrimiento de América",
+			"image": "img/resources/articles-libros/libro7.jpeg"
+		},
+		{
+			"title": "El señor de los vinilos",
+			"description": "Uno para escucharlos a todos, uno para encontrarlos, uno para atraerlos y atarlos al tocadiscos",
+			"image": "img/resources/articles-libros/libro8.jpeg"
+		}
+	]
+}

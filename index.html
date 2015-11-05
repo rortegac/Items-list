@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Codificación de caracteres -->
+	<meta charset="UTF-8">
+	<!-- CSS Include-->
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/jquery-ui.css">
+	<!-- Fuentes -->
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<!--JS Vendor Include-->
+	<script type="text/javascript" src="js/vendor/mustache.js"></script>
+	<script type="text/javascript" src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/jquery-ui.js"></script>
+
+</body>
+
+	<div id="addLibro" onclick="mostrarpopup()">
+		<div class="iconoAddLibro">+</div>
+	</div>
+
+	<header id="top-header">
+		<div class="header-content">
+			<div class="header-titulo">Ruben Page</div>
+		</div>
+	</header>
+
+	<div class="content brow-content">
+
+		<section class="articles-section">
+			<ul id="carga-libros" class="articles">
+			</ul>
+		</div>
+	</div>
+
+<div class="clear" style="height:1px; clear:both;"></div>
+
+<div id="dialog-add-book" class="nuevopopup" title="Añadir Libro">
+  <form id="add-book">
+      <label for="title">Título:</label>
+      <input type="text" name="title-book" value="" class="text ui-widget-content ui-corner-all" id="in-title-book">
+      <label for="description">Decripción:</label>
+      <input type="text" name="description-book" value="" class="text ui-widget-content ui-corner-all" id="in-description-book">
+      <label for="imagen">Ruta de la imagen:</label>
+      <input type="text" name="imagen-book" value="img/resources/articles-libros/libro9.jpeg" class="text ui-widget-content ui-corner-all" id="in-img-book">
+  </form>
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/view.js"></script>
+<script type="text/javascript" src="js/controller.js"></script>
+<script type="text/javascript" src="js/resources/mostrarpopup.js"></script>
+<script type="text/javascript">
+    $( document ).ready(function() {
+        cargaLibros();
+    });
+</script>
+</html>
